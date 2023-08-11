@@ -1,10 +1,10 @@
 #' Ensure UTF-8 Encoding of Character Columns
 #'
-#' @param x a tibble
+#' @param x a tibble.
 #' @param from encoding to convert from. Default is "latin1".
 #' @param to encoding to convert to. Default is "UTF-8".
 #'
-#' @return a tibble where every character column is converted to "to" (e.g. "UTF-8").
+#' @return a tibble where every character column is converted to "to" (i.e. "UTF-8").
 #' @export
 #'
 #' @examples
