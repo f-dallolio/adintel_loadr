@@ -19,3 +19,7 @@ a tibble where every character column is converted to "to" (e.g. "UTF-8")
 \description{
 Title
 }
+\examples{
+ensure_utf8(x)
+
+}
