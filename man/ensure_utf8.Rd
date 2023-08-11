@@ -7,14 +7,14 @@
 ensure_utf8(x, from = "latin1", to = "UTF-8")
 }
 \arguments{
-\item{x}{a tibble}
+\item{x}{a tibble.}
 
 \item{from}{encoding to convert from. Default is "latin1".}
 
 \item{to}{encoding to convert to. Default is "UTF-8".}
 }
 \value{
-a tibble where every character column is converted to "to" (e.g. "UTF-8").
+a tibble where every character column is converted to "to" (i.e. "UTF-8").
 }
 \description{
 Ensure UTF-8 Encoding of Character Columns

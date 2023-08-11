@@ -11,14 +11,12 @@
 #' ensure_utf8(x)
 #'
 ensure_utf8 <- function(x, from = "latin1", to = "UTF-8"){
-  stopifnot("x must be a tibble" = tibble::is_tibble(x))
-  dplyr::mutate(
-    .data = x,
-    dplyr::across(
-      .cols = tidyselect::where(is.character),
+  stopifnot("x must be a tibble" = is_tibble(x))
+  x %>% mutate(
+    across(
+      .cols = where(is.character),
       .fns = ~ iconv(x = x, from = from, to = to)
     )
   )
 }
 
-usethis::use_import_from(package = "magrittr", "%>%")
