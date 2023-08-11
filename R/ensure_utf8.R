@@ -8,6 +8,8 @@
 #' @export
 #'
 #' @examples
+#' ensure_utf8(x)
+#'
 ensure_utf8 <- function(x, from = "latin1", to = "UTF-8"){
   stopifnot("x must be a tibble" = tibble::is_tibble(x))
   dplyr::mutate(
