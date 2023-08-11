@@ -1,5 +1,5 @@
 ## code to prepare `loader_tbl` dataset goes here
-
+loader_list <- loader_list
 loader_tbl <- purrr::list_rbind(
   purrr::map(
     .x = loader_list,
