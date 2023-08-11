@@ -1,10 +1,10 @@
-#' Title
+#' Ensure UTF-8 Encoding of Character Columns
 #'
 #' @param x a tibble
-#' @param from encoding to convert from. Default is "latin1"
-#' @param to encoding to convert to. Default is "UTF-8"
+#' @param from encoding to convert from. Default is "latin1".
+#' @param to encoding to convert to. Default is "UTF-8".
 #'
-#' @return a tibble where every character column is converted to "to" (e.g. "UTF-8")
+#' @return a tibble where every character column is converted to "to" (e.g. "UTF-8").
 #' @export
 #'
 #' @examples
@@ -20,3 +20,5 @@ ensure_utf8 <- function(x, from = "latin1", to = "UTF-8"){
     )
   )
 }
+
+usethis::use_import_from(package = "magrittr", "%>%")
