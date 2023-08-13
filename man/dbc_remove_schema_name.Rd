@@ -11,6 +11,9 @@ dbc_remove_schema_name(string, schema_name = "public")
 
 \item{schema_name}{string with name of schema.}
 }
+\value{
+string or character vector with new table names.
+}
 \description{
 Remove Schema Name in Front of Table Names
 }
