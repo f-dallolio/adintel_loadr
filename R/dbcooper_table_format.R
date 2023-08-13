@@ -1,7 +1,7 @@
 #' Remove Schema Name in Front of Table Names
 #'
-#' @param string
-#' @param schema_name
+#' @param string string or character vector with table names.
+#' @param schema_name string with name of schema.
 #'
 #' @return
 #' @export
