@@ -3,7 +3,7 @@
 #' @param string string or character vector with table names.
 #' @param schema_name string with name of schema.
 #'
-#' @return
+#' @return string or character vector with new table names.
 #' @export
 #'
 #' @examples
