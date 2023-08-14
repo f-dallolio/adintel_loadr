@@ -1,14 +1,24 @@
-load("R/sysdata.rda")
 
-library(magrittr)
 
+library(tidyverse)
+library(glue)
+library(DBI)
+library(RPostgres)
 
 
 year <- 2010
 dir_extract <- "/media/filippo/One Touch/nielsen_data/adintel/"
 archive_name <- "ADINTEL_DATA_{year}"
-connection <- DBI::dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+connection <- DBI::dbConnect(
+  RPostgres::Postgres(),
+  dbname = "adintel",
+  host = "10.147.18.200",
+  user = "postgres",
+  password = "100%Postgres"
+)
 
+
+loader_list
 
 purrr::map(loader_list, ~ .x $ table)
 
@@ -16,10 +26,13 @@ purrr::map(loader_list, ~ .x $ table)
 
 DBI::dbListTables(conn)
 
+i=1
+loader_list_i <- loader_list[[i]]
 
-db_populate_i <- function(names_list, year, dir_extract, archive_name, connection){
 
-  names_list <- loader_list
+db_populate_i <- function(loader_list_i, year, dir_extract, archive_name, connection){
+
+  names_list <- loader_list_i
 
   arch_name <- glue::glue(archive_name)
   dir_name <- glue::glue(names_list$dir)
@@ -30,7 +43,7 @@ db_populate_i <- function(names_list, year, dir_extract, archive_name, connectio
   col_names <- names_list$col_names
   col_types <- names_list$col_types
 
-  tbl_out <- readr::read_tsv(
+  tbl_out <- read_ad(
     file = file,
     col_names = col_names,
     col_types = col_types,
