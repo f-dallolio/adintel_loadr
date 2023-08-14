@@ -17,15 +17,6 @@ connection <- DBI::dbConnect(
   password = "100%Postgres"
 )
 
-
-loader_list
-
-purrr::map(loader_list, ~ .x $ table)
-
-
-
-DBI::dbListTables(conn)
-
 i=1
 loader_list_i <- loader_list[[i]]
 
@@ -34,8 +25,8 @@ db_populate_i <- function(loader_list_i, year, dir_extract, archive_name, connec
 
   names_list <- loader_list_i
 
-  arch_name <- glue::glue(archive_name)
-  dir_name <- glue::glue(names_list$dir)
+  arch_name <- glue(archive_name)
+  dir_name <- glue(names_list$dir)
   table_name <- names_list$table
   file_name <- names_list$file
   file <- paste0(c(dir_extract, arch_name, dir_name, file_name), collapse = "/")
@@ -43,18 +34,14 @@ db_populate_i <- function(loader_list_i, year, dir_extract, archive_name, connec
   col_names <- names_list$col_names
   col_types <- names_list$col_types
 
-  tbl_out <- read_ad(
+  tbl_out <- read_adintel_tsv(
     file = file,
     col_names = col_names,
-    col_types = col_types,
-    skip_empty_rows = TRUE,
-    skip = 1
+    col_types = col_types
   )
 
-
-
-  DBI::dbWriteTable(
-    conn = conn,
+    DBI::dbWriteTable(
+    conn = connection,
     name = table_name,
     value = tbl_out
   )
