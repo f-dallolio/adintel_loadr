@@ -2,7 +2,6 @@
 #'
 #' @param year a number.
 #'
-#' @return
 #' @export
 #'
 connect_db_year <- function(year) {
