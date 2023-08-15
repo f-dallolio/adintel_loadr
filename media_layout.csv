@@ -1,0 +1,25 @@
+file,old_table,media_type_id,media_description,new_table,media_class,media_subclass,geo_dist,language
+Cinema.tsv,cinema,28,Regional Cinema,cinema_local_eng,cinema,cinema,local,eng
+Cinema.tsv,cinema,27,National Cinema,cinema_national_eng,cinema,cinema,national,eng
+Digital.tsv,digital,31,National Digital,digital_national_eng,online,digital,national,eng
+Internet.tsv,internet,26,Local Internet,internet_local_eng,online,internet,local,eng
+Internet.tsv,internet,25,National Internet,internet_national_eng,online,internet,national,eng
+Outdoor.tsv,outdoor,11,Outdoor,outdoor_national_eng,outdoor,outdoor,national,eng
+FSICoupon.tsv,fsi_coupon,12,FSI Coupon,coupon_national_eng,print,coupon,national,eng
+Magazine.tsv,magazine,8,Local Magazine,magazine_local_eng,print,magazine,local,eng
+Magazine.tsv,magazine,7,National Magazine,magazine_national_eng,print,magazine,national,eng
+Newspaper.tsv,newspaper,10,Local Newspaper,newspaper_local_eng,print,newspaper,local,eng
+Newspaper.tsv,newspaper,15,Local Sunday Supplement,sundaysupplement_local_eng,print,sundaysupplement,local,eng
+Newspaper.tsv,newspaper,9,National Newspaper,newspaper_national_eng,print,newspaper,national,eng
+Newspaper.tsv,newspaper,16,National Sunday Supplement,sundaysupplement_national_eng,print,sundaysupplement,national,eng
+Radio.tsv,radio,17,Spot Radio,radio_spot_local_eng,radio,radio_spot,local,eng
+Radio.tsv,radio,6,Network Radio,radio_network_national_eng,radio,radio_network,national,eng
+SpotTV.tsv,spot_tv,24,Local/Regional Cable TV,tv_cable_local_eng,tv,tv_cable,local,eng
+SpotTV.tsv,spot_tv,13,Network Clearance Spot TV,tv_network_local_eng,tv,tv_network,local,eng
+SpotTV.tsv,spot_tv,5,Spot TV,tv_spot_local_eng,tv,tv_spot,local,eng
+SpotTV.tsv,spot_tv,14,Syndicated Clearance Spot TV,tv_syndicated_local_eng,tv,tv_syndicated,local,eng
+NetworkTV.tsv,network_tv,2,Cable TV,tv_cable_national_eng,tv,tv_cable,national,eng
+NetworkTV.tsv,network_tv,22,Spanish Language Cable TV,tv_cable_national_spa,tv,tv_cable,national,spa
+NetworkTV.tsv,network_tv,1,Network TV,tv_network_national_eng,tv,tv_network,national,eng
+NetworkTV.tsv,network_tv,4,Spanish Language Network TV,tv_network_national_spa,tv,tv_network,national,spa
+NetworkTV.tsv,network_tv,3,Syndicated TV,tv_syndicated_national_eng,tv,tv_syndicated,national,eng

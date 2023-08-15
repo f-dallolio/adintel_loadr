@@ -1,10 +1,10 @@
 
-
+devtools::install_github("f-dallolio/adloadr")
 library(tidyverse)
 library(glue)
 library(DBI)
 library(RPostgres)
-
+library(adloadr)
 
 year <- 2010
 dir_extract <- "/media/filippo/One Touch/nielsen_data/adintel/"
@@ -18,12 +18,9 @@ connection <- DBI::dbConnect(
 )
 
 i=1
-loader_list_i <- loader_list[[i]]
+loader_tbl
 
-
-db_populate_i <- function(loader_list_i, year, dir_extract, archive_name, connection){
-
-  names_list <- loader_list_i
+db_table_i <- function(names_list, year, dir_extract, archive_name, connection){
 
   arch_name <- glue(archive_name)
   dir_name <- glue(names_list$dir)
@@ -31,19 +28,13 @@ db_populate_i <- function(loader_list_i, year, dir_extract, archive_name, connec
   file_name <- names_list$file
   file <- paste0(c(dir_extract, arch_name, dir_name, file_name), collapse = "/")
 
-  col_names <- names_list$col_names
-  col_types <- names_list$col_types
+  col_names <- names_list$col_names[[1]]
+  col_types <- names_list$col_types[[1]]
 
   tbl_out <- read_adintel_tsv(
     file = file,
     col_names = col_names,
     col_types = col_types
-  )
-
-    DBI::dbWriteTable(
-    conn = connection,
-    name = table_name,
-    value = tbl_out
   )
 
 }
