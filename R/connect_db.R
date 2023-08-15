@@ -21,3 +21,38 @@ connect_db <- function() {
     password = password
   )
 }
+
+#' @export
+#'
+connect_db_general <- function(year, host ='10.147.18.200',  user = "postgres", password ) {
+
+  dbname <- paste0('adintel_', year)
+
+  DBI::dbConnect(
+    RPostgres::Postgres(),
+    dbname = dbname,
+    host = host,
+    port = 5432,
+    user = user,
+    password = password
+  )
+}
+
+#' @export
+#'
+connect_db_year <- function(year) {
+  host  <-  '10.147.18.200'
+  dbname <- paste0('adintel_', year)
+  # user  <-  rstudioapi::showPrompt(title = "user", message = 'Username')
+  user  <-  'postgres'
+  password <-  rstudioapi::askForPassword("Password")
+
+  DBI::dbConnect(
+    RPostgres::Postgres(),
+    dbname = dbname,
+    host = host,
+    port = 5432,
+    user = user,
+    password = password
+  )
+}
