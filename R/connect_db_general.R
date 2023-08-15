@@ -10,7 +10,6 @@
 connect_db_general <- function(year, host ='10.147.18.200',  user = "postgres", password ) {
 
   dbname <- paste0('adintel_', year)
-  password <-  rstudioapi::askForPassword("Password")
 
   DBI::dbConnect(
     RPostgres::Postgres(),
