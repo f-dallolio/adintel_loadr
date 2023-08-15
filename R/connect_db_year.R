@@ -1,13 +1,12 @@
-#' Create a DB connection (RPostgres)
+#' Create a DB connection to AdIntel by year (RPostgres)
 #'
-#' @return a connection.
+#' @param year a number.
+#'
+#' @return
 #' @export
 #'
-connect_db <- function() {
-  # host  <-  rstudioapi::showPrompt(title = "host", message = 'Server name/ip')
+connect_db_year <- function(year) {
   host  <-  '10.147.18.200'
-  # dbname <-  rstudioapi::showPrompt(title = "dbname", message = 'Name of the database (e.g. adintel_2014)')
-  year <- rstudioapi::showPrompt(title = "Adintel Archive Year", message = 'Year')
   dbname <- paste0('adintel_', year)
   # user  <-  rstudioapi::showPrompt(title = "user", message = 'Username')
   user  <-  'postgres'
