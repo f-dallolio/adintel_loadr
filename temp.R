@@ -1,49 +1,40 @@
-load("R/sysdata.rda")
 
-library(magrittr)
-
-
+devtools::install_github("f-dallolio/adloadr")
+library(tidyverse)
+library(glue)
+library(DBI)
+library(RPostgres)
+library(adloadr)
 
 year <- 2010
 dir_extract <- "/media/filippo/One Touch/nielsen_data/adintel/"
 archive_name <- "ADINTEL_DATA_{year}"
-connection <- DBI::dbConnect(RSQLite::SQLite(), dbname = ":memory:")
+connection <- DBI::dbConnect(
+  RPostgres::Postgres(),
+  dbname = "adintel",
+  host = "10.147.18.200",
+  user = "postgres",
+  password = "100%Postgres"
+)
 
+i=1
+loader_tbl
 
-purrr::map(loader_list, ~ .x $ table)
+db_table_i <- function(names_list, year, dir_extract, archive_name, connection){
 
-
-
-DBI::dbListTables(conn)
-
-
-db_populate_i <- function(names_list, year, dir_extract, archive_name, connection){
-
-  names_list <- loader_list
-
-  arch_name <- glue::glue(archive_name)
-  dir_name <- glue::glue(names_list$dir)
+  arch_name <- glue(archive_name)
+  dir_name <- glue(names_list$dir)
   table_name <- names_list$table
   file_name <- names_list$file
   file <- paste0(c(dir_extract, arch_name, dir_name, file_name), collapse = "/")
 
-  col_names <- names_list$col_names
-  col_types <- names_list$col_types
+  col_names <- names_list$col_names[[1]]
+  col_types <- names_list$col_types[[1]]
 
-  tbl_out <- readr::read_tsv(
+  tbl_out <- read_adintel_tsv(
     file = file,
     col_names = col_names,
-    col_types = col_types,
-    skip_empty_rows = TRUE,
-    skip = 1
-  )
-
-
-
-  DBI::dbWriteTable(
-    conn = conn,
-    name = table_name,
-    value = tbl_out
+    col_types = col_types
   )
 
 }

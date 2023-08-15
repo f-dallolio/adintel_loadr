@@ -15,7 +15,7 @@ ensure_utf8 <- function(x, from = "latin1", to = "UTF-8"){
   x %>% mutate(
     across(
       .cols = where(is.character),
-      .fns = ~ iconv(x = x, from = from, to = to)
+      .fns = ~ iconv(x = .x, from = from, to = to)
     )
   )
 }
