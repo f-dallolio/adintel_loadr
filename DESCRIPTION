@@ -17,6 +17,7 @@ Imports:
     dbcooper,
     DBI,
     dplyr,
+    fdutils (>= 0.0.0.9000),
     forcats,
     glue,
     lubridate,
@@ -27,3 +28,5 @@ Imports:
     stringr,
     tibble,
     tidyr
+Remotes:  
+    github::f-dallolio/fdutils
