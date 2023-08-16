@@ -20,7 +20,9 @@ check_pk_i <- function(con, table, pk){
     tibble(table = table, pk_ok = pk_ok$problem)
   }
 }
-
+#
+#' @export
+#'
 check_pk_list <- function(con, pk_list){
   db_tbls <- DBI::dbListTables(con)
   pk_list <- pk_list[names(pk_list) %in% db_tbls]
