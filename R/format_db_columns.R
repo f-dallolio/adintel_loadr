@@ -1,4 +1,4 @@
-format_db_columns <- function(years, password){
+format_db_columns <- function(password, years, exceptions){
   for(year in years){
 
     con <- connect_db_general(year = year, password = password)
