@@ -9,11 +9,9 @@ library(fdutils)
 library(adloadr)
 library(adintelr)
 
-con <- connect_db()
-dbc_init(con = con, con_id = "adintel", table_formatter = table_formatter)
+con <- connect_db_general(year = 2014, password = '100%Postgres')
+dbc_init(con = con, con_id = "x", table_formatter = table_formatter)
 tbls <- adintel_list() %>% table_formatter()
-
-
 
 names_foo <- function(...){
   names(enquos(..., .named = TRUE))
@@ -93,7 +91,6 @@ pk_list <- list(
     AdCode, AdTime, RadioDaypartID
   ),
   outdoor_national_eng = names_foo(
-    # AdDate, MarketCode, MediaTypeID, DistributorCode, AdCode
     AdDate, MarketCode, MediaTypeID, AdCode, AdTypeID
   ),
   internet_local_eng = names_foo(
@@ -114,56 +111,17 @@ pk_list <- list(
   )
 )
 
-xxx <- map2(.x = names(pk_list), .y = pk_list, .f = ~ tibble(new_table = .x, pk = .y)) %>%
+pk_tbl <- imap(pk_list, ~ tibble(table = .y, pk = .x)) %>%
   list_rbind() %>%
-  mutate(pk = pk %>%
-           str_upper_split() %>%
-           str_replace_all("i_d", "id")) %>%
-  nest(pk = pk, .by = new_table) %>%
-  mutate(pk = pk %>% modify(~ .x %>% pull()))
+  mutate(
+    pk = pk %>% str_separate_AbCd() %>%
+      str_replace_all("t_v", "tv") %>%
+      str_replace_all("i_d", "id") %>%
+      str_replace_all("u_c", "uc") %>%
+      str_replace_all("h_h", "hh") %>%
+      str_replace_all("p_c_c", "pcc") %>%
+      str_replace_all("u_r_l", "url")  %>%
+      str_replace_all("__", "_")
+  )
 
-media_temp <- media_layout %>% inner_join(xxx) %>%
-  select(new_table, pk) %>%
-  filter(new_table %in% tbls)
-
-
-library(dm)
-dm_df <- dm_from_con(con, media_temp$new_table)
-
-seq_id <- seq_along(media_temp$pk)
-i=5
-
-for(i in seq_id){
-  print(i)
-  table <-  media_temp$new_table[[i]]
-  columns <- media_temp$pk[[i]]
-  # dm_df <- dm_df %>%
-  #   dm_add_pk(table = !!table, columns = columns, force = TRUE, check = TRUE)
-
-  dm_df %>%
-    dm_add_pk(table = !!table, columns = columns, force = TRUE) %>% dm_examine_constraints()
-}
-
-adintel_outdoor_national_eng() %>%
-
-  summarise(spend = sum(spend), .by = c(ad_date, market_code, media_type_id, ad_code, ad_type_id)) %>%
-  show_query()
-
-
-dm(table) %>%
-  dm_add_pk(table = table, columns = c(ad_date, market_code, media_type_id, ad_code, ad_type_id), force = TRUE) %>% dm_examine_constraints()
-
-
-
-skimr::skim()
-
-
-dm_df %>%
-  dm_add_pk(table = !!table, columns = columns, force = TRUE)
-
-dm_df %>% dm_examine_constraints()
-
-
-
-
-
+usethis::use_data(pk_tbl)
