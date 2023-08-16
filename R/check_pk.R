@@ -1,13 +1,12 @@
 #' Checks Uniqueness of Primary Keys
+#'
 #' @export
 #'
 check_pk_i <- function(con, table, pk){
-  table <- table
-  pk <- pk
   print(glue::glue("\n\n Checking {table}"))
   dm_df <- dm::dm_from_con(con = con, table_names = table, learn_keys = T)
   dm_df <- dm_df %>%
-    dm::dm_add_pk(table = !!table, columns = pk)
+    dm::dm_add_pk(table = !!table, columns = !!pk)
   print(glue::glue("---- Created data model"))
   pk_ok <- try(dm_df %>% dm::dm_examine_constraints())
 
@@ -28,9 +27,9 @@ check_pk_list <- function(con, pk_list){
   pk_list <- pk_list[names(pk_list) %in% db_tbls]
   seq_id <- seq_along(pk_list)
   for(i in seq_id){
-    table <- names(pk_list)[[i]]
-    pk <- pk_list[[i]]
-    pk_out_i <- check_pk_i(con = con, table = table, pk = pk)
+    table_i <- names(pk_list)[[i]]
+    pk_i <- pk_list[[i]]
+    pk_out_i <- check_pk_i(con = con, table = table_i, pk = pk_i)
     if(i == seq_id[[1]]){
       pk_out <- pk_out_i
     } else {
