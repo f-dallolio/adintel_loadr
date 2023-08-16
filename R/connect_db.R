@@ -1,6 +1,3 @@
-#' Create a DB connection (RPostgres)
-#'
-#' @return a connection.
 #' @export
 connect_db <- function() {
   # host  <-  rstudioapi::showPrompt(title = "host", message = 'Server name/ip')
