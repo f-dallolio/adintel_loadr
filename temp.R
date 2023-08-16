@@ -4,27 +4,28 @@ library(tidyverse)
 library(glue)
 library(DBI)
 library(RPostgres)
+library(fdutils)
 library(adloadr)
 
-year <- 2010
+year <- 2014
 dir_extract <- "/media/filippo/One Touch/nielsen_data/adintel/"
 archive_name <- "ADINTEL_DATA_{year}"
 connection <- DBI::dbConnect(
   RPostgres::Postgres(),
-  dbname = "adintel",
+  dbname = "adintel_2014",
   host = "10.147.18.200",
   user = "postgres",
   password = "100%Postgres"
 )
 
 i=1
-loader_tbl
+names_list <- loader_tbl %>% filter(tablename == "cinema")
 
 db_table_i <- function(names_list, year, dir_extract, archive_name, connection){
 
   arch_name <- glue(archive_name)
   dir_name <- glue(names_list$dir)
-  table_name <- names_list$table
+  table_name <- names_list$tablename
   file_name <- names_list$file
   file <- paste0(c(dir_extract, arch_name, dir_name, file_name), collapse = "/")
 
@@ -37,30 +38,9 @@ db_table_i <- function(names_list, year, dir_extract, archive_name, connection){
     col_types = col_types
   )
 
+  names(tbl_out) <- names(tbl_out) %>% str_upper_split() %>% str_replace_all("i_d", "id")
+
+  DBI::dbWriteTable(conn = connection, name = table_name, value = tbl_out)
+
 }
-
-
-db_populate_i(loader_list = loader_list[[1]],
-              year = 2010,
-              dir_extract =  "/media/filippo/One Touch/nielsen_data/adintel",
-              archive_name = "ADINTEL_DATA_{year}",
-              connection = connection)
-
-
-
-
-
-digital_check <- list.files(
-  str_c(dir_extract, archive_name),
-  recursive = T) %>%
-  str_detect("Digital.tsv") %>%
-  any()
-
-digital_check
-
-if(!digital_check){
-  loader_tbl %>% filter(str_detect(tablename, "digital", negate = TRUE))
-}
-
-
 DBI::dbDisconnect(connection)

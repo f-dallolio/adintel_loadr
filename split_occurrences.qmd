@@ -21,46 +21,6 @@ library(adintelr)
 ```
 
 ```{r}
-years <- 2014 : 2018
-password <- rstudioapi::askForPassword()
-
-for(year in years){
-  print(year)
-  con <-  adloadr::connect_db_general(year = year, password = password)
-  dbc_init(con, 'adintel', table_formatter = table_formatter)
-  tbls <- adintel_list() %>% table_formatter()
-  tables <- media_layout %>% 
-    select(old_table, new_table, media_type_id) %>% 
-    filter(old_table %in% tbls)
-  seq_id <- seq_along(tables$old_table)
-  for(i in seq_id){
-    old_table <- tables$old_table[[i]]
-    new_table <- tables$new_table[[i]]
-    media_id <- tables$media_type_id[[i]]
-    query <- glue("CREATE TABLE IF NOT EXISTS {new_table} AS 
-                      SELECT * FROM {old_table} WHERE media_type_id = {media_id}")
-    adintel_execute(query = query)
-    print(
-      glue('Done with ({new_table}) from ({old_table}) /// i={i}')
-    )
-  }
-  dbc_clear_connections()
-}
-```
-
-```{r}
-media_temp <- media_layout %>% 
-  select(old_table, new_table, media_type_id) 
-
-for(i in seq_along(unique(media_temp$old_table))){
-  
-}
-
-
-
-```
-
-```{r}
 split_occurrence_query <- function(con, new_table, old_table, media_type_id){
   statement <- glue("CREATE TABLE IF NOT EXISTS {new_table} AS 
                       SELECT * FROM {old_table} WHERE media_type_id = {media_type_id}")
@@ -77,23 +37,7 @@ drop_old_table_query <- function(con, old_table){
   DBI::dbSendQuery(conn = con, statement = statement)
 }
 
-split_occurrence <- function(con, x, old_table_column){
-  id_names <- x %>% distinct({{old_table_column}}) %>% pull
-  id_list <- map(.x = id_names, .f = ~ filter(x, {{old_table_column}} == .x)) %>% set_names(id_names)
-  id_list
-}
-
-
-con <- connect_db_general(year = 2014,password = '100%Postgres')
-DBI::dbListTables(con)
-media_tbl <- media_layout %>% select(old_table, new_table, media_type_id)
-
-
-table_list <- split_occurrence(con = con, x = media_tbl, old_table_column = old_table)
-
-x <- table_list[[1]]
-
-foo <- function(con, x){
+drop_old_table_i <- function(con, x){
   i=1
   seq_id <- seq_along(row_number(x))
   old_table <- unique(x$old_table)
@@ -105,9 +49,45 @@ foo <- function(con, x){
 drop_old_table_query(con = con, old_table = old_table)
 }
 
-foo(con, x)
+drop_old_table <- function(con, table_list){
+  walk(table_list, ~ drop_old_table_i(con, .x))
+}
 
+split_occurrence_table <- function(con, x, old_table_column){
+  id_names <- x %>% distinct({{old_table_column}}) %>% pull
+  id_list <- map(.x = id_names, .f = ~ filter(x, {{old_table_column}} == .x)) %>% set_names(id_names)
+  id_list
+}
+
+year=2016:2018
+drop_old_table_allyears <- function(years, password = "100%Postgres"){
+  for(year in years){
+    
+    print(glue('
+          
+          Year {year}
+          
+          '))
+    
+    con <- connect_db_general(year = year, password = password)
+    tbl_list <- DBI::dbListTables(con)
+    media_tbl <- media_layout %>% select(old_table, new_table, media_type_id) %>% 
+      filter(old_table %in% tbl_list)
+    table_list <- split_occurrence_table(con = con, x = media_tbl, old_table_column = old_table)
+    drop_old_table(con = con, table_list = table_list)
+    DBI::dbDisconnect(con)
+  }
+}
+
+
+drop_old_table_allyears(years = 2016:2018, password = "100%Postgres")
+
+
+con <- connect_db_general(year = 2014,password = '100%Postgres')
+tbl_list <- DBI::dbListTables(con)
+media_tbl <- media_layout %>% select(old_table, new_table, media_type_id) %>% 
+  filter(old_table %in% tbl_list)
+table_list <- split_occurrence_table(con = con, x = media_tbl, old_table_column = old_table)
 DBI::dbDisconnect(con)
 
 ```
-
