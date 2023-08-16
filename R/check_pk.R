@@ -30,7 +30,7 @@ check_pk_list <- function(con, pk_list){
   for(i in seq_id){
     table <- names(pk_list)[[i]]
     pk <- pk_list[[i]]
-    pk_out_i <- check_pk(con = con, table = table, pk = pk)
+    pk_out_i <- check_pk_i(con = con, table = table, pk = pk)
     if(i == seq_id[[1]]){
       pk_out <- pk_out_i
     } else {
