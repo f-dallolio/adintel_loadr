@@ -1,0 +1,71 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+execute:
+  freeze: true
+---
+
+```{r}
+# | output: false
+devtools::install_github("f-dallolio/fdutils", quiet = T)
+devtools::install_github("f-dallolio/adloadr", quiet = T)
+
+library(tidyverse)
+library(glue)
+library(fdutils)
+library(adloadr)
+```
+
+```{r}
+pswd <- "100%Postgres"
+```
+
+```{r}
+con14 <- connect_db_general(year = 2014, password = pswd)
+tbl14 <- DBI::dbListTables(con14)
+occur14 <- media_layout$new_table %>% base::intersect(tbl14)
+no_occur14 <- tbl14 %>% setdiff(occur14)
+
+no_occur14 %>% walk(~ send_drop_table(con = con14, table = .x))
+DBI::dbListTables(con14)
+```
+```{r}
+con15 <- connect_db_general(year = 2015, password = pswd)
+tbl15 <- DBI::dbListTables(con15)
+occur15 <- media_layout$new_table %>% base::intersect(tbl15)
+no_occur15 <- tbl15 %>% setdiff(occur15)
+
+no_occur15 %>% walk(~ send_drop_table(con = con15, table = .x))
+DBI::dbListTables(con15)
+```
+
+```{r}
+con16 <- connect_db_general(year = 2016, password = pswd)
+tbl16 <- DBI::dbListTables(con16)
+occur16 <- media_layout$new_table %>% base::intersect(tbl16)
+no_occur16 <- tbl16 %>% setdiff(occur16)
+
+no_occur16 %>% walk(~ send_drop_table(con = con16, table = .x))
+DBI::dbListTables(con16)
+```
+
+```{r}
+con17 <- connect_db_general(year = 2017, password = pswd)
+tbl17 <- DBI::dbListTables(con17)
+occur17 <- media_layout$new_table %>% base::intersect(tbl17)
+no_occur17 <- tbl17 %>% setdiff(occur17)
+
+no_occur17 %>% walk(~ send_drop_table(con = con17, table = .x))
+DBI::dbListTables(con17)
+```
+
+```{r}
+con18 <- connect_db_general(year = 2018, password = pswd)
+tbl18 <- DBI::dbListTables(con18)
+occur18 <- media_layout$new_table %>% base::intersect(tbl18)
+no_occur18 <- tbl18 %>% setdiff(occur18)
+
+no_occur18 %>% walk(~ send_drop_table(con = con18, table = .x))
+DBI::dbListTables(con18)
+```
