@@ -36,4 +36,5 @@ check_pk_list <- function(con, pk_list){
       pk_out <- pk_out %>% bind_rows(pk_out_i)
     }
   }
+  return(pk_out)
 }
