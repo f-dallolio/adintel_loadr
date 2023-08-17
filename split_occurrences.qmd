@@ -46,7 +46,7 @@ drop_old_table_i <- function(con, x){
     media_type_id <- x$media_type_id[[i]]
     split_occurrence_query(con = con, new_table = new_table, old_table = old_table, media_type_id = media_type_id)
   }
-drop_old_table_query(con = con, old_table = old_table)
+  drop_old_table_query(con = con, old_table = old_table)
 }
 
 drop_old_table <- function(con, table_list){
@@ -59,16 +59,9 @@ split_occurrence_table <- function(con, x, old_table_column){
   id_list
 }
 
-year=2016:2018
 drop_old_table_allyears <- function(years, password = "100%Postgres"){
   for(year in years){
-    
-    print(glue('
-          
-          Year {year}
-          
-          '))
-    
+    print(glue('\n \n Year {year} \n \n'))
     con <- connect_db_general(year = year, password = password)
     tbl_list <- DBI::dbListTables(con)
     media_tbl <- media_layout %>% select(old_table, new_table, media_type_id) %>% 
@@ -78,8 +71,10 @@ drop_old_table_allyears <- function(years, password = "100%Postgres"){
     DBI::dbDisconnect(con)
   }
 }
+```
 
 
+```{r}
 drop_old_table_allyears(years = 2016:2018, password = "100%Postgres")
 
 
