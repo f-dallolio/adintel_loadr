@@ -89,9 +89,11 @@ pk_14_18 <- pk14 %>%
     pk18 %>% 
       mutate(year = 2018, 
              .before = 1)
-  )
-pk_14_18 %>% 
+  ) %>% 
   filter(pk_ok != "OK") %>% 
   mutate(pk_ok = pk_ok %>% str_split_i(": ", 1)) 
+
+pk_14_18 
+pk_14_18 %>% write_csv("temp_data/pk_14_18.csv")
 ```
 

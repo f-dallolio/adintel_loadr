@@ -1,0 +1,18 @@
+year,table,pk_ok
+2014,magazine_local_eng,has duplicate values
+2014,radio_network_national_eng,has 16 missing values
+2014,outdoor_national_eng,has duplicate values
+2015,magazine_local_eng,has duplicate values
+2015,radio_network_national_eng,has 14 missing values
+2015,outdoor_national_eng,has duplicate values
+2016,magazine_local_eng,has duplicate values
+2016,radio_network_national_eng,has 14 missing values
+2016,outdoor_national_eng,has duplicate values
+2017,magazine_local_eng,has duplicate values
+2017,radio_network_national_eng,has 14 missing values
+2017,outdoor_national_eng,has duplicate values
+2017,digital_national_eng,has duplicate values
+2018,magazine_local_eng,has duplicate values
+2018,radio_network_national_eng,has 14 missing values
+2018,outdoor_national_eng,has duplicate values
+2018,digital_national_eng,has duplicate values
