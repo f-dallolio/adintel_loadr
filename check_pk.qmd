@@ -1,0 +1,97 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+execute:
+  freeze: true
+---
+
+```{r}
+# | output: false
+devtools::install_github("f-dallolio/fdutils", quiet = T)
+devtools::install_github("f-dallolio/adloadr", quiet = T)
+
+library(tidyverse)
+library(glue)
+library(fdutils)
+library(adloadr)
+```
+
+```{r}
+pswd <- "100%Postgres"
+```
+
+```{r}
+con14 <- connect_db_general(year = 2014, password = pswd)
+pk14 <- check_pk_list(con = con14, pk_list = pk_list)
+pk14 %>% filter(pk_ok != "OK") %>% 
+  mutate(pk_ok = pk_ok %>% str_split_i(": ", 1))
+DBI::dbDisconnect(con14)
+rm(con14)
+```
+
+```{r}
+con15 <- connect_db_general(year = 2015, password = pswd)
+pk15 <- check_pk_list(con = con15, pk_list = pk_list)
+pk15 %>% filter(pk_ok != "OK") %>% 
+  mutate(pk_ok = pk_ok %>% str_split_i(": ", 1))
+DBI::dbDisconnect(con15)
+rm(con15)
+```
+
+```{r}
+con16 <- connect_db_general(year = 2016, password = pswd)
+pk16 <- check_pk_list(con = con16, pk_list = pk_list)
+pk16 %>% filter(pk_ok != "OK") %>% 
+  mutate(pk_ok = pk_ok %>% str_split_i(": ", 1))
+DBI::dbDisconnect(con16)
+rm(con16)
+```
+
+```{r}
+con17 <- connect_db_general(year = 2017, password = pswd)
+pk17 <- check_pk_list(con = con17, pk_list = pk_list)
+pk17 %>% filter(pk_ok != "OK") %>% 
+  mutate(pk_ok = pk_ok %>% str_split_i(": ", 1))
+DBI::dbDisconnect(con17)
+rm(con17)
+```
+
+```{r}
+con18 <- connect_db_general(year = 2018, password = pswd)
+pk18 <- check_pk_list(con = con18, pk_list = pk_list)
+pk18 %>% filter(pk_ok != "OK") %>% 
+  mutate(pk_ok = pk_ok %>% str_split_i(": ", 1))
+DBI::dbDisconnect(con18)
+rm(con18)
+```
+
+```{r}
+pk_14_18 <- pk14 %>% 
+  mutate(year = 2014, 
+         .before = 1) %>% 
+  bind_rows(
+    pk15 %>% 
+      mutate(year = 2015, 
+             .before = 1)
+  ) %>% 
+  bind_rows(
+    pk16 %>% 
+      mutate(year = 2016, 
+             .before = 1)
+  ) %>% 
+  bind_rows(
+    pk17 %>% 
+      mutate(year = 2017, 
+             .before = 1)
+  ) %>% 
+  bind_rows(
+    pk18 %>% 
+      mutate(year = 2018, 
+             .before = 1)
+  )
+pk_14_18 %>% 
+  filter(pk_ok != "OK") %>% 
+  mutate(pk_ok = pk_ok %>% str_split_i(": ", 1)) 
+```
+
