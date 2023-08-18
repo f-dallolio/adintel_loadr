@@ -74,7 +74,7 @@ drop_old_table_allyears <- function(years, password = "100%Postgres"){
 ```
 
 ```{r}
-drop_old_table_allyears(years = 2016:2018, password = "100%Postgres")
+drop_old_table_allyears(years = 2019:2021, password = "100%Postgres")
 
 
 con <- connect_db_general(year = 2014,password = '100%Postgres')
