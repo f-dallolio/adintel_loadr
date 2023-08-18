@@ -51,9 +51,4 @@ usethis::use_data(loader_tbl_occurrences, overwrite = TRUE)
 
 
 
-password <- "100%Postgres"
-con <- connect_db_general(year = 2014, password = password)
 
-tbl_list <- dbListTables(con)
-tbl_list <- tbl_list %>% map(~ dbListFields(con = con, name = .x)) %>% set_names(tbl_list)
-imap(tbl_list, ~ tibble(table_name = .y, col_names = .x)) %>% list_rbind()
