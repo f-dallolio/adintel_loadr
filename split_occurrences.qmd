@@ -73,7 +73,6 @@ drop_old_table_allyears <- function(years, password = "100%Postgres"){
 }
 ```
 
-
 ```{r}
 drop_old_table_allyears(years = 2016:2018, password = "100%Postgres")
 
