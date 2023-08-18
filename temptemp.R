@@ -19,7 +19,7 @@ dbname <- 'adintel_14_to_21'
 host <- '10.147.18.200'
 user <- 'postgres'
 password <- "100%Postgres"
-con <- connect_db_general(year = 2018, password = password)
+con <- connect_db_general(year = 2014, password = password)
 new_con <- DBI::dbConnect(RPostgres::Postgres(),
                           dbname = dbname,
                           host = host,
@@ -39,6 +39,15 @@ my_table <- "tv_spot_local_eng"
 dm_df <- dm_from_con(con, my_table) %>% pull_tbl(!!my_table)
 
 grp_vars <- pk_tbl %>% filter(table == my_table) %>% pull(pk)
+glue_collapse(grp_vars, ", ")
+
+x <- dm_df %>%
+  arrange(ad_date, ad_time, market_code, media_type_id, distributor_code, ad_code) %>%
+  mutate(ad_id = cumsum(1), .before = 1)
+
+show_query(.Last.value)
+
+
 
 tic()
 x <- dm_df %>%
