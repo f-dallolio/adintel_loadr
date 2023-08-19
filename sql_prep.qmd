@@ -72,8 +72,12 @@ file_layouts_3 <- file_layouts_2 %>%
   mutate(col_types = str_to_upper(col_types),
          col_types = if_else(col_types == "TINYINT", 
                              "SMALLINT", col_types),
+         col_types = if_else(col_names_adintel == "AdDate", 
+                             "DATE", col_types),
+         col_types = if_else(col_names_adintel == "AdTime", 
+                             "TIME", col_types),
          precision = if_else(col_types %in% 
-                               c("INTEGER", "SMALLINT"),
+                               c("INTEGER", "SMALLINT", "DATE", "TIME"),
                              NA, 
                              precision))
 ```
@@ -91,5 +95,74 @@ sql_layout_temp <- file_layouts_3 %>%
     is_unique = !is.na(is_unique)
   ) %>% 
   unnest(everything()) 
+```
+
+```{r}
+table <- "spot_tv"
+
+columns <- sql_layout_temp %>% 
+  filter(table == !!table) %>% 
+  transmute(column_name = col_names_adintel,
+            data_type = col_types,
+            precision = precision) %>% 
+  sql_create_table_cols()
+
+unique_cols <- sql_layout_temp %>%
+  filter(table == !!table) %>% 
+  filter(is_unique) %>% 
+  pull(col_names_adintel) 
+
+unique_idx <- glue_collapse(glue('"{unique_cols}"'), ", ")
+
+main_query <- glue('
+  CREATE TABLE {table} (
+    {columns},
+    UNIQUE (unique_cols)
+  )
+'
+)
+
+partition_query <-  glue('PARTITION BY RANGE ("AdDate")')
+ 
+partitions <- function(table, years){
+  map(years, 
+    ~ glue(
+  "
+  CREATE TABLE {table}__y{.x} PARTITION OF {table}
+    FOR VALUES FROM ('{.x}-01-01') TO ('{.x + 1}-01-01');
+  "
+    )
+  ) %>% list_c
+}
+
+
+year <- 2010:2021 
+
+glue(
+  "
+  {main_query}
+  {partition_query}:
+  "
+)
+
+paste(main_query, partition_query, ;)
+
+
+
+
+
+query
+
+con <- dbConnect(
+  RPostgres::Postgres(),
+  dbname = "adintel",
+  host = '10.147.18.200',
+  port = 5432,
+  user = 'postgres',
+  password = '100%Postgres'
+)
+
+dbSendQuery(con, query)
+
 ```
 
