@@ -1,0 +1,11 @@
+devtools::install_github('f-dallolio/fdutils')
+devtools::install_github('f-dallolio/adloadr')
+
+library(DBI)
+library(RPostgres)
+library(dm)
+library(dbcooper)
+library(tidyverse)
+library(glue)
+library(fdutils)
+library(adloadr)

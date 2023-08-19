@@ -1,0 +1,61 @@
+CREATE TABLE prova (
+  "AdDate"   DATE,
+  "AdTime"   TIME,
+  "MarketCode"   CHARACTER(3),
+  "MediaTypeID"   SMALLINT,
+  "PrimBrandCode"   INTEGER,
+  "ScndBrandCode"   INTEGER,
+  "TerBrandCode"   INTEGER,
+  "DistributorCode"   CHAR(8),
+  "Units"   INTEGER,
+  "Spend"   NUMERIC(15,2),
+  "TVDaypartCode"   CHARACTER(2),
+  "Duration"   SMALLINT,
+  "AdCode"   CHARACTER(15),
+  "CreativeID"   INTEGER,
+  "Pod14"   CHARACTER(10),
+  "Pod30"   CHARACTER(10),
+  "Pod120"   CHARACTER(10),
+  "PodPosition14"   SMALLINT,
+  "PodPosition30"   SMALLINT,
+  "PodPosition120"   SMALLINT,
+  "ImpressionType"   CHARACTER(1),
+  "MarketBreakType"   CHARACTER(1),
+  "NielsenProgramCode"   INTEGER,
+  "TelecastNumber"   INTEGER,
+  "TimeIntervalNumber"   SMALLINT,
+  "GrpPercentage"   SMALLINT,
+  "MonitorPlusProgramCode"   INTEGER,
+  "DistributorID"   INTEGER,
+  "DayOfWeek"   SMALLINT,
+  "UC_dim_Bridge_occ_ImpNationalTV_key"   INTEGER,
+UNIQUE ("AdDate", "AdTime", "MarketCode", "MediaTypeID", "DistributorCode", "AdCode", "GrpPercentage", "MonitorPlusProgramCode")
+) PARTITION BY RANGE ("AdDate");
+
+
+CREATE TABLE prova_2010 PARTITION OF prova
+    FOR VALUES FROM ('2010-01-01') TO ('2011-01-01');	
+CREATE TABLE prova_2011 PARTITION OF prova
+    FOR VALUES FROM ('2011-01-01') TO ('2012-01-01');
+CREATE TABLE prova_2012 PARTITION OF prova
+    FOR VALUES FROM ('2012-01-01') TO ('2013-01-01');	
+CREATE TABLE prova_2013 PARTITION OF prova
+    FOR VALUES FROM ('2013-01-01') TO ('2014-01-01');
+CREATE TABLE prova_2014 PARTITION OF prova
+    FOR VALUES FROM ('2014-01-01') TO ('2015-01-01');
+CREATE TABLE prova_2015 PARTITION OF prova
+    FOR VALUES FROM ('2015-01-01') TO ('2016-01-01');
+CREATE TABLE prova_2016 PARTITION OF prova
+    FOR VALUES FROM ('2016-01-01') TO ('2017-01-01');
+CREATE TABLE prova_2017 PARTITION OF prova
+    FOR VALUES FROM ('2017-01-01') TO ('2018-01-01');
+CREATE TABLE prova_2018 PARTITION OF prova
+    FOR VALUES FROM ('2018-01-01') TO ('2019-01-01');
+CREATE TABLE prova_2019 PARTITION OF prova
+    FOR VALUES FROM ('2019-01-01') TO ('2020-01-01');
+CREATE TABLE prova_2020 PARTITION OF prova
+    FOR VALUES FROM ('2020-01-01') TO ('2021-01-01');
+CREATE TABLE prova_2021 PARTITION OF prova
+    FOR VALUES FROM ('2021-01-01') TO ('2022-01-01');
+	
+CREATE INDEX ON prova ("AdDate");
