@@ -1,576 +1,576 @@
-extract_name,extract_column,folder,business_logic
-NetworkTV,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,AdTime,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,TVDaypartCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,Duration,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,CreativeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,Pod14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,Pod30,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,Pod120,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,PodPosition14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,PodPosition30,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,PodPosition120,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,Impression Type,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,Market Break Type,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,NielsenProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,TelecastNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,TimeIntervalNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,GrpPercentage,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,MonitorPlusProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,DayOfWeek,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-NetworkTV,UC_dim_Bridge_occ_ImpNetworkTV_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NA
-SpotTV,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,AdTime,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,TVDaypartCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,Duration,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,CreativeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,Pod,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,PodPosition,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,PeriodYearMonth,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,DayOfWeek,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,TimeIntervalNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,Monitor Plus Program Code,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,RegionalIndicator,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-SpotTV,UC_dim_Bridge_occ_ImpSpotTV_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,NA
-FSICoupon,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,SourceCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,OffValue,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,OffType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-FSICoupon,CouponID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,NA
-Newspaper,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,NewspAdSize,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,NewspEventCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Newspaper,NewspSecCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,NA
-Internet,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,NA
-Internet,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,NA
-Internet,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,NA
-Internet,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,NA
-Internet,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,NA
-Internet,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,NA
-Internet,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,NA
-Internet,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,NA
-Internet,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,NA
-Internet,Imp2Plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,NA
-Cinema,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,Duration,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,Geography,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,AdTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,MpaaRatingId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,Imp2Plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Cinema,CreativeDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,NA
-Radio,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,RadioDaypartID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,AdTime,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Radio,UC_dim_Bridge_occ_ImpSpotRadio_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,NA
-Outdoor,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,NA
-Outdoor,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,NA
-Outdoor,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,NA
-Outdoor,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,NA
-Outdoor,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,NA
-Outdoor,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,NA
-Outdoor,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,NA
-Outdoor,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,NA
-Outdoor,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,NA
-Outdoor,AdTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,NA
-Magazine,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,MagAdColor,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,MagAdType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,MagAdSize,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,MagPageNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,MagPosCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,Bleed,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,SectionCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,PageCount,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,PeriodYearMonth,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,Slogan,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,CreativeFileName,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Magazine,AdNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,NA
-Digital,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,CreativeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,AdService,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,AdServiceType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,Imp2Plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,AdPlatformId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,AdTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,AdTechnologyId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,BuyTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,ProxyId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,OccurrenceType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
-Digital,AdVisibility,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,NA
+extract_name,column_name,folder,file,file_type,table,business_logic
+NetworkTV,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,AdTime,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,TVDaypartCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,Duration,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,CreativeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,Pod14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,Pod30,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,Pod120,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,PodPosition14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,PodPosition30,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,PodPosition120,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,Impression Type,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,Market Break Type,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,NielsenProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,TelecastNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,TimeIntervalNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,GrpPercentage,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,MonitorPlusProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,DayOfWeek,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+NetworkTV,UC_dim_Bridge_occ_ImpNetworkTV_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/NetworkTV.tsv,NetworkTV.tsv,occurrences,network_tv,NA
+SpotTV,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,AdTime,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,TVDaypartCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,Duration,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,CreativeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,Pod,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,PodPosition,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,PeriodYearMonth,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,DayOfWeek,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,TimeIntervalNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,Monitor Plus Program Code,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,RegionalIndicator,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+SpotTV,UC_dim_Bridge_occ_ImpSpotTV_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/SpotTV.tsv,SpotTV.tsv,occurrences,spot_tv,NA
+FSICoupon,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,SourceCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,OffValue,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,OffType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+FSICoupon,CouponID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/FSICoupon.tsv,FSICoupon.tsv,occurrences,fsi_coupon,NA
+Newspaper,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,NewspAdSize,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,NewspEventCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Newspaper,NewspSecCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Newspaper.tsv,Newspaper.tsv,occurrences,newspaper,NA
+Internet,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,Internet.tsv,occurrences,internet,NA
+Internet,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,Internet.tsv,occurrences,internet,NA
+Internet,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,Internet.tsv,occurrences,internet,NA
+Internet,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,Internet.tsv,occurrences,internet,NA
+Internet,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,Internet.tsv,occurrences,internet,NA
+Internet,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,Internet.tsv,occurrences,internet,NA
+Internet,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,Internet.tsv,occurrences,internet,NA
+Internet,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,Internet.tsv,occurrences,internet,NA
+Internet,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,Internet.tsv,occurrences,internet,NA
+Internet,Imp2Plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Internet.tsv,Internet.tsv,occurrences,internet,NA
+Cinema,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,Duration,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,Geography,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,AdTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,MpaaRatingId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,Imp2Plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Cinema,CreativeDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Cinema.tsv,Cinema.tsv,occurrences,cinema,NA
+Radio,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,RadioDaypartID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,AdTime,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Radio,UC_dim_Bridge_occ_ImpSpotRadio_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Radio.tsv,Radio.tsv,occurrences,radio,NA
+Outdoor,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,Outdoor.tsv,occurrences,outdoor,NA
+Outdoor,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,Outdoor.tsv,occurrences,outdoor,NA
+Outdoor,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,Outdoor.tsv,occurrences,outdoor,NA
+Outdoor,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,Outdoor.tsv,occurrences,outdoor,NA
+Outdoor,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,Outdoor.tsv,occurrences,outdoor,NA
+Outdoor,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,Outdoor.tsv,occurrences,outdoor,NA
+Outdoor,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,Outdoor.tsv,occurrences,outdoor,NA
+Outdoor,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,Outdoor.tsv,occurrences,outdoor,NA
+Outdoor,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,Outdoor.tsv,occurrences,outdoor,NA
+Outdoor,AdTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Outdoor.tsv,Outdoor.tsv,occurrences,outdoor,NA
+Magazine,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,Units,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,MagAdColor,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,MagAdType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,MagAdSize,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,MagPageNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,MagPosCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,Bleed,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,SectionCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,PageCount,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,PeriodYearMonth,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,Slogan,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,CreativeFileName,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Magazine,AdNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Magazine.tsv,Magazine.tsv,occurrences,magazine,NA
+Digital,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,PrimBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,ScndBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,TerBrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,CreativeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,AdService,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,AdServiceType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,Spend,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,Imp2Plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,AdPlatformId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,AdTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,AdTechnologyId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,BuyTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,ProxyId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,OccurrenceType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
+Digital,AdVisibility,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Occurrences/Digital.tsv,Digital.tsv,occurrences,digital,NA
 "Advertiser
-(Dynamic Reference)",AdvParentCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Advertiser.tsv,NA
+(Dynamic Reference)",AdvParentCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Advertiser.tsv,Advertiser.tsv,references,advertiser,NA
 "Advertiser
-(Dynamic Reference)",AdvParentDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Advertiser.tsv,NA
+(Dynamic Reference)",AdvParentDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Advertiser.tsv,Advertiser.tsv,references,advertiser,NA
 "Advertiser
-(Dynamic Reference)",AdvSubsidCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Advertiser.tsv,NA
+(Dynamic Reference)",AdvSubsidCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Advertiser.tsv,Advertiser.tsv,references,advertiser,NA
 "Advertiser
-(Dynamic Reference)",AdvSubsidDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Advertiser.tsv,NA
+(Dynamic Reference)",AdvSubsidDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Advertiser.tsv,Advertiser.tsv,references,advertiser,NA
 "Brand
-(Dynamic Reference)",BrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,NA
+(Dynamic Reference)",BrandCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,Brand.tsv,references,brand,NA
 "Brand
-(Dynamic Reference)",BrandDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,NA
+(Dynamic Reference)",BrandDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,Brand.tsv,references,brand,NA
 "Brand
-(Dynamic Reference)",BrandVariant,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,NA
+(Dynamic Reference)",BrandVariant,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,Brand.tsv,references,brand,NA
 "Brand
-(Dynamic Reference)",AdvParentCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,NA
+(Dynamic Reference)",AdvParentCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,Brand.tsv,references,brand,NA
 "Brand
-(Dynamic Reference)",AdvSubsidCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,NA
+(Dynamic Reference)",AdvSubsidCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,Brand.tsv,references,brand,NA
 "Brand
-(Dynamic Reference)",PCCSubCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,NA
+(Dynamic Reference)",PCCSubCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,Brand.tsv,references,brand,NA
 "Brand
-(Dynamic Reference)",ProductID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,NA
+(Dynamic Reference)",ProductID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Brand.tsv,Brand.tsv,references,brand,NA
 "CreativeDescription
-(Dynamic Reference)",CreativeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/CreativeDescription.tsv,NA
+(Dynamic Reference)",CreativeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/CreativeDescription.tsv,CreativeDescription.tsv,references,creative_description,NA
 "CreativeDescription
-(Dynamic Reference)",CreativeDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/CreativeDescription.tsv,NA
+(Dynamic Reference)",CreativeDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/CreativeDescription.tsv,CreativeDescription.tsv,references,creative_description,NA
 "CinemaAdType
-(Dynamic Reference)",AdTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/CinemaAdType.tsv,NA
+(Dynamic Reference)",AdTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/CinemaAdType.tsv,CinemaAdType.tsv,references,cinema_ad_type,NA
 "CinemaAdType
-(Dynamic Reference)",AdTypeDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/CinemaAdType.tsv,NA
-CinemaMPAARating,MpaaRatingId,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/CinemaMPAARating.tsv,NA
-CinemaMPAARating,MpaaRatingDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/CinemaMPAARating.tsv,NA
+(Dynamic Reference)",AdTypeDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/CinemaAdType.tsv,CinemaAdType.tsv,references,cinema_ad_type,NA
+CinemaMPAARating,MpaaRatingId,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/CinemaMPAARating.tsv,CinemaMPAARating.tsv,latest,cinema_mpaa_rating,NA
+CinemaMPAARating,MpaaRatingDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/CinemaMPAARating.tsv,CinemaMPAARating.tsv,latest,cinema_mpaa_rating,NA
 "Distributor
-(Dynamic Reference)",DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,NA
+(Dynamic Reference)",DistributorCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,Distributor.tsv,references,distributor,NA
 "Distributor
-(Dynamic Reference)",MediaTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,NA
+(Dynamic Reference)",MediaTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,Distributor.tsv,references,distributor,NA
 "Distributor
-(Dynamic Reference)",MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,NA
+(Dynamic Reference)",MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,Distributor.tsv,references,distributor,NA
 "Distributor
-(Dynamic Reference)",DistribDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,NA
+(Dynamic Reference)",DistribDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,Distributor.tsv,references,distributor,NA
 "Distributor
-(Dynamic Reference)",PublisherID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,NA
+(Dynamic Reference)",PublisherID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,Distributor.tsv,references,distributor,NA
 "Distributor
-(Dynamic Reference)",Language,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,NA
+(Dynamic Reference)",Language,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,Distributor.tsv,references,distributor,NA
 "Distributor
-(Dynamic Reference)",Abbreviation,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,NA
+(Dynamic Reference)",Abbreviation,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,Distributor.tsv,references,distributor,NA
 "Distributor
-(Dynamic Reference)",Affiliation,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,NA
+(Dynamic Reference)",Affiliation,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,Distributor.tsv,references,distributor,NA
 "Distributor
-(Dynamic Reference)",GenreID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,NA
+(Dynamic Reference)",GenreID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Distributor.tsv,Distributor.tsv,references,distributor,NA
 "MagazineGenre
-(Dynamic Reference)",MagGenreID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/MagazineGenre.tsv,NA
+(Dynamic Reference)",MagGenreID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/MagazineGenre.tsv,MagazineGenre.tsv,references,magazine_genre,NA
 "MagazineGenre
-(Dynamic Reference)",GenreDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/MagazineGenre.tsv,NA
-Market,MarketCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Market.tsv,NA
-Market,MarketName,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Market.tsv,NA
-Market Breaks,MarketBreaksCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Market Breaks.tsv,NA
-Market Breaks,MarketBreaksDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Market Breaks.tsv,NA
-MediaType,MediaTypeID,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/MediaType.tsv,NA
-MediaType,MediaTypeDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/MediaType.tsv,NA
-Newspaper Event,NewspEventCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Newspaper Event.tsv,NA
-Newspaper Event,NewspEventDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Newspaper Event.tsv,NA
-Newspaper Section,NewspSecCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Newspaper Section.tsv,NA
-Newspaper Section,NewspSecDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Newspaper Section.tsv,NA
+(Dynamic Reference)",GenreDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/MagazineGenre.tsv,MagazineGenre.tsv,references,magazine_genre,NA
+Market,MarketCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Market.tsv,Market.tsv,latest,market,NA
+Market,MarketName,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Market.tsv,Market.tsv,latest,market,NA
+Market Breaks,MarketBreaksCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Market Breaks.tsv,Market Breaks.tsv,latest,market_breaks,NA
+Market Breaks,MarketBreaksDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Market Breaks.tsv,Market Breaks.tsv,latest,market_breaks,NA
+MediaType,MediaTypeID,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/MediaType.tsv,MediaType.tsv,latest,media_type,NA
+MediaType,MediaTypeDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/MediaType.tsv,MediaType.tsv,latest,media_type,NA
+Newspaper Event,NewspEventCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Newspaper Event.tsv,Newspaper Event.tsv,latest,newspaper_event,NA
+Newspaper Event,NewspEventDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Newspaper Event.tsv,Newspaper Event.tsv,latest,newspaper_event,NA
+Newspaper Section,NewspSecCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Newspaper Section.tsv,Newspaper Section.tsv,latest,newspaper_section,NA
+Newspaper Section,NewspSecDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/Newspaper Section.tsv,Newspaper Section.tsv,latest,newspaper_section,NA
 "OutdoorAdType
-(Dynamic Reference)",AdTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/OutdoorAdType.tsv,NA
+(Dynamic Reference)",AdTypeId,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/OutdoorAdType.tsv,OutdoorAdType.tsv,references,outdoor_ad_type,NA
 "OutdoorAdType
-(Dynamic Reference)",AdTypeDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/OutdoorAdType.tsv,NA
+(Dynamic Reference)",AdTypeDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/OutdoorAdType.tsv,OutdoorAdType.tsv,references,outdoor_ad_type,NA
 "ProductCategories
-(Dynamic Reference)",PCCSubCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,NA
+(Dynamic Reference)",PCCSubCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,ProductCategories.tsv,references,product_categories,NA
 "ProductCategories
-(Dynamic Reference)",PCCSubDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,NA
+(Dynamic Reference)",PCCSubDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,ProductCategories.tsv,references,product_categories,NA
 "ProductCategories
-(Dynamic Reference)",PCCMajCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,NA
+(Dynamic Reference)",PCCMajCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,ProductCategories.tsv,references,product_categories,NA
 "ProductCategories
-(Dynamic Reference)",PCCMajDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,NA
+(Dynamic Reference)",PCCMajDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,ProductCategories.tsv,references,product_categories,NA
 "ProductCategories
-(Dynamic Reference)",PCCIndusCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,NA
+(Dynamic Reference)",PCCIndusCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,ProductCategories.tsv,references,product_categories,NA
 "ProductCategories
-(Dynamic Reference)",PCCIndusDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,NA
+(Dynamic Reference)",PCCIndusDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,ProductCategories.tsv,references,product_categories,NA
 "ProductCategories
-(Dynamic Reference)",ProductID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,NA
+(Dynamic Reference)",ProductID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,ProductCategories.tsv,references,product_categories,NA
 "ProductCategories
-(Dynamic Reference)",ProductDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,NA
+(Dynamic Reference)",ProductDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/ProductCategories.tsv,ProductCategories.tsv,references,product_categories,NA
 "Publisher
-(Dynamic Reference)",PublisherID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Publisher.tsv,NA
+(Dynamic Reference)",PublisherID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Publisher.tsv,Publisher.tsv,references,publisher,NA
 "Publisher
-(Dynamic Reference)",PublisherDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Publisher.tsv,NA
-TV Daypart,TVDaypartCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV Daypart.tsv,NA
-TV Daypart,TVDaypartDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV Daypart.tsv,NA
+(Dynamic Reference)",PublisherDesc,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/Publisher.tsv,Publisher.tsv,references,publisher,NA
+TV Daypart,TVDaypartCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV Daypart.tsv,TV Daypart.tsv,latest,tv_daypart,NA
+TV Daypart,TVDaypartDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV Daypart.tsv,TV Daypart.tsv,latest,tv_daypart,NA
 "TV Program
-(Dynamic Reference)",NielsenProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,NA
+(Dynamic Reference)",NielsenProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,TV Program.tsv,references,tv_program,NA
 "TV Program
-(Dynamic Reference)",MonitorPlusProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,NA
+(Dynamic Reference)",MonitorPlusProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,TV Program.tsv,references,tv_program,NA
 "TV Program
-(Dynamic Reference)",TVProgTitle,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,NA
+(Dynamic Reference)",TVProgTitle,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,TV Program.tsv,references,tv_program,NA
 "TV Program
-(Dynamic Reference)",TVProgTypeCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,NA
+(Dynamic Reference)",TVProgTypeCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,TV Program.tsv,references,tv_program,NA
 "TV Program
-(Dynamic Reference)",TVProgEventCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,NA
+(Dynamic Reference)",TVProgEventCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,TV Program.tsv,references,tv_program,NA
 "TV Program
-(Dynamic Reference)",TVProgSubCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,NA
-TV ProgramType,TVProgTypeCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramType.tsv,NA
-TV ProgramType,TVProgTypeDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramType.tsv,NA
-TV ProgramEvent,TVProgEventCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramEvent.tsv,NA
-TV ProgramEvent,TVProgEventDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramEvent.tsv,NA
-TV ProgramSubType,TVProgSubCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramSubType.tsv,NA
-TV ProgramSubType,TVProgSubDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramSubType.tsv,NA
-Digital Ad Platform,AdPlatformId,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdPlatform.tsv,NA
-Digital Ad Platform,AdPlatform,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdPlatform.tsv,NA
-Digital Ad Technology,AdTechnologyID,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdTechnology.tsv,NA
-Digital Ad Technology,AdTechnology,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdTechnology.tsv,NA
-Digital Ad Type,AdTypeID,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdType.tsv,NA
-Digital Ad Type,AdType,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdType.tsv,NA
-Digital Buy Type,BuyTypeId,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalBuyType.tsv,NA
-Digital Buy Type,BuyType,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalBuyType.tsv,NA
+(Dynamic Reference)",TVProgSubCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/TV Program.tsv,TV Program.tsv,references,tv_program,NA
+TV ProgramType,TVProgTypeCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramType.tsv,TV ProgramType.tsv,latest,tv_program_type,NA
+TV ProgramType,TVProgTypeDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramType.tsv,TV ProgramType.tsv,latest,tv_program_type,NA
+TV ProgramEvent,TVProgEventCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramEvent.tsv,TV ProgramEvent.tsv,latest,tv_program_event,NA
+TV ProgramEvent,TVProgEventDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramEvent.tsv,TV ProgramEvent.tsv,latest,tv_program_event,NA
+TV ProgramSubType,TVProgSubCode,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramSubType.tsv,TV ProgramSubType.tsv,latest,tv_program_sub_type,NA
+TV ProgramSubType,TVProgSubDesc,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/TV ProgramSubType.tsv,TV ProgramSubType.tsv,latest,tv_program_sub_type,NA
+Digital Ad Platform,AdPlatformId,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdPlatform.tsv,DigitalAdPlatform.tsv,latest,digital_ad_platform,NA
+Digital Ad Platform,AdPlatform,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdPlatform.tsv,DigitalAdPlatform.tsv,latest,digital_ad_platform,NA
+Digital Ad Technology,AdTechnologyID,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdTechnology.tsv,DigitalAdTechnology.tsv,latest,digital_ad_technology,NA
+Digital Ad Technology,AdTechnology,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdTechnology.tsv,DigitalAdTechnology.tsv,latest,digital_ad_technology,NA
+Digital Ad Type,AdTypeID,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdType.tsv,DigitalAdType.tsv,latest,digital_ad_type,NA
+Digital Ad Type,AdType,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalAdType.tsv,DigitalAdType.tsv,latest,digital_ad_type,NA
+Digital Buy Type,BuyTypeId,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalBuyType.tsv,DigitalBuyType.tsv,latest,digital_buy_type,NA
+Digital Buy Type,BuyType,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalBuyType.tsv,DigitalBuyType.tsv,latest,digital_buy_type,NA
 "Digital Creative 
-(Dynamic Reference)",CreativeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,NA
+(Dynamic Reference)",CreativeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,DigitalCreative.tsv,references,digital_creative,NA
 "Digital Creative 
-(Dynamic Reference)",AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,NA
+(Dynamic Reference)",AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,DigitalCreative.tsv,references,digital_creative,NA
 "Digital Creative 
-(Dynamic Reference)",dcLandingPageTitle,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,NA
+(Dynamic Reference)",dcLandingPageTitle,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,DigitalCreative.tsv,references,digital_creative,NA
 "Digital Creative 
-(Dynamic Reference)",dcLandingPageURL,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,NA
+(Dynamic Reference)",dcLandingPageURL,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,DigitalCreative.tsv,references,digital_creative,NA
 "Digital Creative 
-(Dynamic Reference)",dcVideoDuration,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,NA
+(Dynamic Reference)",dcVideoDuration,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,DigitalCreative.tsv,references,digital_creative,NA
 "Digital Creative 
-(Dynamic Reference)",dcAdSize,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,NA
-Digital Genre,GenreID,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalGenre.tsv,NA
-Digital Genre,GenreName,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalGenre.tsv,NA
+(Dynamic Reference)",dcAdSize,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalCreative.tsv,DigitalCreative.tsv,references,digital_creative,NA
+Digital Genre,GenreID,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalGenre.tsv,DigitalGenre.tsv,latest,digital_genre,NA
+Digital Genre,GenreName,/department/Nielsen_Extracts/AdIntel/Master_Files/Latest/DigitalGenre.tsv,DigitalGenre.tsv,latest,digital_genre,NA
 "Digital Proxy 
-(Dynamic Reference)",ProxyID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalProxy.tsv,NA
+(Dynamic Reference)",ProxyID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalProxy.tsv,DigitalProxy.tsv,references,digital_proxy,NA
 "Digital Proxy 
-(Dynamic Reference)",ProxyLocation,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalProxy.tsv,NA
-ImpNetworkTV,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,"Primay Key from Occurrence file is placed here to create a direct relationship. This extract is a combination of the following Media Types:
+(Dynamic Reference)",ProxyLocation,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/References/DigitalProxy.tsv,DigitalProxy.tsv,references,digital_proxy,NA
+ImpNetworkTV,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,"Primay Key from Occurrence file is placed here to create a direct relationship. This extract is a combination of the following Media Types:
 1. Network TV
 2. Spanish Language Network TV
 3. Cable TV
 4. Spanish Language Cable TV
 5. Syndicated TV"
-ImpNetworkTV,DataStreamID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,HispanicFlag,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,ImpressionType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,NielsenProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,TelecastNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,ImpressionDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,TimeIntervalNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_6_8,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_9_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_12_14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_15_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_6_8,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_9_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_12_14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_15_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,ww_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,ww_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,ww_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,ww_35_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,ww_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,ww_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,ww_55_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpNetworkTV,UC_dim_Bridge_occ_ImpNetworkTV_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,NA
-ImpSpotTV,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,"Primay Key from Occurrence file is placed here to create a direct relationship. This extract is a combination of the following Media Types:
+ImpNetworkTV,DataStreamID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,HispanicFlag,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,ImpressionType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,NielsenProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,TelecastNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,ImpressionDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,TimeIntervalNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_6_8,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_9_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_12_14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_15_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_6_8,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_9_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_12_14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_15_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,ww_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,ww_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,ww_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,ww_35_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,ww_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,ww_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,ww_55_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpNetworkTV,UC_dim_Bridge_occ_ImpNetworkTV_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpNetworkTV.tsv,ImpNetworkTV.tsv,impressions,imp_network_tv,NA
+ImpSpotTV,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,"Primay Key from Occurrence file is placed here to create a direct relationship. This extract is a combination of the following Media Types:
 1. Spot TV
 2. Network Clearance Spot TV"
-ImpSpotTV,DataStreamID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,HispanicFlag,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,PeriodYearMonth,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,DayOfWeek,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,TimeIntervalNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,ActualFlag,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,children_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,children_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,female_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,female_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,Male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,Male_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,Male_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,ww_18_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotTV,UC_dim_Bridge_occ_ImpSpotTV_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,NA
-ImpSpotRadio,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,Primay Key from Occurrence file is placed here to create a direct relationship.
-ImpSpotRadio,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,AdTime,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Daypart_id,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Female_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Female_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Male_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Male_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-ImpSpotRadio,UC_dim_Bridge_occ_ImpSpotRadio_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,NA
-UENetworkTV,HispanicFlag,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,StartDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,EndDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_6_8,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_9_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_12_14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_15_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_6_8,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_9_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_12_14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_15_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,ww_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,ww_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,ww_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,ww_35_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,ww_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,ww_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UENetworkTV,ww_55_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,NA
-UESpotTV,HispanicFlag,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,StartDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,EndDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,children_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,children_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,female_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,female_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,Male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,Male_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,Male_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotTV,ww_18_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,NA
-UESpotRadio,PeriodYearQtr,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,StartDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,EndDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Female_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Female_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Male_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Male_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-UESpotRadio,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,NA
-IMPMarketBreaks,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,NielsenProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,TelecastNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,MarketBreaksType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,MarketBreaksCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,TimeIntervalNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,PeriodYearMonth,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,DayOfWeek,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,ImpressionStart,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,ImpressionEnd,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,ww_18_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,ww_50_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,lady_of_house_18_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,lady_of_house_50_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-IMPMarketBreaks,NA,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,NA
-UEMarketBreak,MarketBreaksCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,StartDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,EndDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,ww_18_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,ww_50_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,lady_of_house_18_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
-UEMarketBreak,lady_of_house_50_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,NA
+ImpSpotTV,DataStreamID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,HispanicFlag,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,PeriodYearMonth,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,DayOfWeek,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,TimeIntervalNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,ActualFlag,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,children_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,children_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,female_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,female_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,Male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,Male_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,Male_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,ww_18_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotTV,UC_dim_Bridge_occ_ImpSpotTV_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotTV.tsv,ImpSpotTV.tsv,impressions,imp_spot_tv,NA
+ImpSpotRadio,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,Primay Key from Occurrence file is placed here to create a direct relationship.
+ImpSpotRadio,AdDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,AdTime,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Daypart_id,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,AdCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Female_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Female_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Male_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Male_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+ImpSpotRadio,UC_dim_Bridge_occ_ImpSpotRadio_key,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Impressions/ImpSpotRadio.tsv,ImpSpotRadio.tsv,impressions,imp_spot_radio,NA
+UENetworkTV,HispanicFlag,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,StartDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,EndDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_6_8,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_9_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_12_14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_15_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_6_8,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_9_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_12_14,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_15_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,ww_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,ww_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,ww_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,ww_35_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,ww_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,ww_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UENetworkTV,ww_55_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UENetworkTV.tsv,UENetworkTV.tsv,universe_estimates,ue_network_tv,NA
+UESpotTV,HispanicFlag,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,StartDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,EndDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,children_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,children_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,female_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,female_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,Male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,Male_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,Male_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotTV,ww_18_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotTV.tsv,UESpotTV.tsv,universe_estimates,ue_spot_tv,NA
+UESpotRadio,PeriodYearQtr,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,StartDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,EndDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,MarketCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Female_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Female_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Male_25_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Male_35_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+UESpotRadio,Male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UESpotRadio.tsv,UESpotRadio.tsv,universe_estimates,ue_spot_radio,NA
+IMPMarketBreaks,MediaTypeID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,NielsenProgramCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,TelecastNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,MarketBreaksType,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,MarketBreaksCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,TimeIntervalNumber,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,PeriodYearMonth,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,DayOfWeek,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,DistributorID,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,ImpressionStart,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,ImpressionEnd,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,ww_18_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,ww_50_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,lady_of_house_18_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,lady_of_house_50_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+IMPMarketBreaks,NA,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Market_Breaks/IMPMarketBreaks.tsv,IMPMarketBreaks.tsv,market_breaks,imp_market_breaks,NA
+UEMarketBreak,MarketBreaksCode,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,StartDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,EndDate,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,TV_HH,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,female_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_2_5,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_6_11,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_12_17,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_18_20,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_21_24,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_25_29,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_30_34,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_35_39,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_40_44,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_45_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_50_54,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_55_64,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,male_65_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,ww_18_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,ww_50_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,lady_of_house_18_49,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
+UEMarketBreak,lady_of_house_50_plus,/ADINTEL_DATA_{year}/nielsen_extracts/AdIntel/{year}/Universe_Estimates/UEMarketBreak.tsv,UEMarketBreak.tsv,universe_estimates,ue_market_break,NA
