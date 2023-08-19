@@ -2,17 +2,18 @@
 #'
 #' @export
 #'
-create_table_lst <- function(table,
-                              columns = list(column_name = NULL, data_type = NULL, precision = NULL),
-                              unique = NULL,
-                              partition_by_range = NULL){
+create_table_maker <- function(table,
+                             column_name,
+                             data_type,
+                             precision = NULL,
+                             unique = NULL,
+                             .col_partitionn =  NULL){
   list(
     table = table,
     columns = list(column_name = column_name,
                    data_type = data_type,
                    precision = precision),
     unique = unique,
-    partition_by_range = list(col, lower, upper)
+    .col_partitionn = .col_partitionn
   )
 }
-

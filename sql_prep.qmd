@@ -24,208 +24,62 @@ file_layouts <- read_csv("file_layouts.csv") %>%
            str_replace_all("u_e", "ue")  %>% 
            str_replace_all("i_m_p", "imp"),
          .after = folder) 
+```
 
-file_layouts %>% 
-  nest(.by = table, .key = "data1") 
 
+```{r}
 loading_info <- file_layouts %>% 
-  select(file_type, table, file, folder,extract_name, column_name, business_logic) %>% 
-  summarise(column_name = list(column_name),
-            business_logic = list(business_logic),
-            .by = c(file_type : extract_name))
-use_data(loading_info)
-```
+  select(file_type, table, file, folder,extract_name, column_name, business_logic) 
 
-```{r}
-file_layouts_2 <- file_layouts %>% 
-  nest(.by = table, .key = "data1") %>% 
-  inner_join(
-    loader_tbl_occurences_sql %>% 
-      nest(.by = tablename, .key = "data2"), 
-    by = c("table" = "tablename")
-  ) %>% 
-  unnest(everything())
-
-file_layouts_3 <- file_layouts_2 %>% 
-  rename(col_names_adintel = extract_column) %>% 
-  mutate(col_types = str_to_upper(col_types),
-         col_types = if_else(col_types == "TINYINT", 
-                             "SMALLINT", col_types),
-         col_types = if_else(col_names_adintel == "AdDate", 
-                             "DATE", col_types),
-         col_types = if_else(col_names_adintel == "AdTime", 
-                             "TIME", col_types),
-         precision = if_else(col_types %in% 
-                               c("INTEGER", "SMALLINT", "DATE", "TIME"),
-                             NA, 
-                             precision))
-```
-
-```{r}
-new_pk_tbl <- media_layout %>% 
+unique_tbl <- media_layout %>% 
   select(old_table, new_table) %>% 
   inner_join(pk_tbl, by = c("new_table" = "table")) %>% 
-  distinct(old_table, pk) %>% rename
+  distinct(old_table, new_table, pk) %>% 
+  rename(table = old_table,
+         media_table = new_table,
+         unique = pk) %>%
+  summarise(unique = list(unique),
+            media_table = list(media_table),
+            .by = table)
 
-sql_layout_temp <- file_layouts_3 %>% 
-  nest(.by = c(table, col_names_adintel, col_names)) %>% 
-  full_join(
-    new_pk_tbl %>% mutate(is_unique = TRUE), 
-    by = c("table" = "old_table", "col_names" = "pk")
-  ) %>% 
-  mutate(
-    is_unique = !is.na(is_unique)
-  ) %>% 
-  unnest(everything()) 
-```
-
-```{r}
-
-table = unique(sql_layout_temp$table)[1]
-
-sql_tbl <- sql_layout_temp %>% 
-  transmute(row = row_number(),
-            table,
-            column_name = col_names_adintel,
-            data_type = col_types,
-            precision = precision,
-            unique = if_else(is_unique, column_name, NA)) %>% 
-  nest(.by = table) %>% 
-  mutate(tbl = map(data , ~ select(.x, -unique, -row)),
-         unique = map(data, ~ .x %>% 
-                        filter(!is.na(unique)) %>% 
-                        pull(unique)), 
-         .keep = "unused")
-
-tbl_i <- sql_tbl %>% slice(1)
-
-with(tbl_i,
-glue("
-CREATE TABLE {table} 
-  ({ %>% paste(sep = ', ')})
-  "
-))
-
-
-pmap(.l = pluck(tbl_i,"tbl", 1), .f = sql_column_defition) %>% list_c() %>% 
-  glue_sql_collapse(sep = ", \n")
-
-
-
-
-
-
-
-$unique
-  summarise(data = select(column_name : is_unique),
-            unique = )
-tbl_i
-sql_layout_temp %>% filter
-
-
-
-
-
-
-
-sql_layout_temp %>% 
-  select(table, col_names_adintel, col_types, precision, is_unique) %>% 
-  mutate(unique_idx = if_else(is_unique))
-
-
-sql_layout_temp %>% 
-  transmute(table,
-            column_name = col_names_adintel,
-            data_type = col_tyoes,
-            precision = precision,
-            unique = if_else(is_unique, col_names_adintel))
-  summarise(columns = )
-
-
-sql_layout_temp %>% 
-  summarise(unique_idx = list(col_names_adintel[is_unique]), .by = table) %>% 
-  pull(unique_idx)
-list(
-  table = "xxx",
-  columns_list = ,
-  unique = ,
-  partition_by = "AdDate",
-  range = 2010 : 2021,
-)
-
-
-
-sql_layout_temp %>% 
-  mutate
-
+columns_tbl <- loader_tbl_occurences_sql %>% 
+  rename(table = tablename,
+         column_name = col_names_0,
+         data_type = col_types) %>% 
+  # nest(.by= c(table, column_name, data_type, precision)) %>%
+  mutate(data_type = str_to_upper(data_type),
+         data_type = if_else(data_type == "TINYINT", 
+                             "SMALLINT", data_type),
+         data_type = if_else(column_name == "AdDate", 
+                             "DATE", data_type),
+         data_type = if_else(column_name == "AdTime", 
+                             "TIME", data_type),
+         precision = if_else(data_type %in% 
+                               c("INTEGER", "SMALLINT", "DATE", "TIME"),
+                             NA, 
+                             glue("{(precision)}") %>% as.character())) %>% 
+  nest(column_name = column_name,
+       data_type = data_type,
+       precision = precision, 
+       data = c(table, col_names, description), 
+     .by = table) %>% 
+  mutate(across(column_name : precision, ~ .x %>% map(pull) ))
 
 ```
 
 ```{r}
-table <- "spot_tv"
+create_table_nested <- columns_tbl %>% 
+  select(-data) %>% 
+  inner_join(
+    unique_tbl %>% 
+      select(-media_table)
+  ) %>% 
+  mutate(.col_partition = NA)
 
-columns <- sql_layout_temp %>% 
-  filter(table == !!table) %>% 
-  transmute(column_name = col_names_adintel,
-            data_type = col_types,
-            precision = precision) %>% 
-  sql_create_table_cols()
+x <- create_table_nested
 
-unique_cols <- sql_layout_temp %>%
-  filter(table == !!table) %>% 
-  filter(is_unique) %>% 
-  pull(col_names_adintel) 
+create_table_list_temp <- x %>% pmap(create_table_maker) %>% set_names(x$table) %>% str
 
-unique_idx <- glue_collapse(glue('"{unique_cols}"'), ", ")
-
-main_query <- glue('
-  CREATE TABLE {table} (
-    {columns},
-    UNIQUE (unique_cols)
-  )
-'
-)
-
-partition_query <-  glue('PARTITION BY RANGE ("AdDate")')
- 
-partitions <- function(table, years){
-  map(years, 
-    ~ glue(
-  "
-  CREATE TABLE {table}__y{.x} PARTITION OF {table}
-    FOR VALUES FROM ('{.x}-01-01') TO ('{.x + 1}-01-01');
-  "
-    )
-  ) %>% list_c
-}
-
-
-year <- 2010:2021 
-
-glue(
-  "
-  {main_query}
-  {partition_query}:
-  "
-)
-
-paste(main_query, partition_query, ;)
-
-
-
-
-
-query
-
-con <- dbConnect(
-  RPostgres::Postgres(),
-  dbname = "adintel",
-  host = '10.147.18.200',
-  port = 5432,
-  user = 'postgres',
-  password = '100%Postgres'
-)
-
-dbSendQuery(con, query)
+usethis::use_data(create_table_list_temp)
 
 ```
