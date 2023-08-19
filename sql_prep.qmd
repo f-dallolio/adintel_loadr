@@ -78,8 +78,12 @@ create_table_nested <- columns_tbl %>%
 
 x <- create_table_nested
 
-create_table_list_temp <- x %>% pmap(create_table_maker) %>% set_names(x$table) %>% str
+create_table_list_temp <- x %>% pmap(create_table_maker) %>% set_names(x$table)
 
-usethis::use_data(create_table_list_temp)
+usethis::use_data(create_table_list_temp, overwrite = T)
 
 ```
+
+
+
+
