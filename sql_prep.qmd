@@ -12,32 +12,32 @@ source("load_packages.R")
 ```
 
 ```{r}
-# file_layouts <- read_excel("file_layouts.xlsx", sheet = 1) %>% mutate(`BUSINESS LOGIC` = NA) %>%
-#   bind_rows(
-#     read_excel("file_layouts.xlsx", sheet = 2)  %>% mutate(`BUSINESS LOGIC` = NA)
-#   ) %>%
-#   bind_rows(
-#     read_excel("file_layouts.xlsx", sheet = 3) %>% relocate(`BUSINESS LOGIC`, .after = 4)
-#   ) %>%
-#   bind_rows(
-#     read_excel("file_layouts.xlsx", sheet = 4)  %>% mutate(`BUSINESS LOGIC` = NA)
-#   ) %>%
-#   bind_rows(
-#     read_excel("file_layouts.xlsx", sheet = 5)  %>% mutate(`BUSINESS LOGIC` = NA)
-#   ) %>%
-#   set_names(
-#     names(.) %>% str_replace_all(" ", "_") %>% str_to_lower()
-#   )
-# 
-# for(i in seq_along(file_layouts$extract_name)[-1]){
-#   if(is.na(file_layouts$extract_name[[i]])){
-#     file_layouts$extract_name[[i]] <-file_layouts$extract_name[[i-1]]
-#   }
-#   if(is.na(file_layouts$folder[[i]])){
-#     file_layouts$folder[[i]] <-file_layouts$folder[[i-1]]
-#   }
-# }
-# file_layouts %>% write_csv("file_layouts.csv")
+file_layouts <- read_excel("file_layouts.xlsx", sheet = 1) %>% mutate(`BUSINESS LOGIC` = NA) %>%
+  bind_rows(
+    read_excel("file_layouts.xlsx", sheet = 2)  %>% mutate(`BUSINESS LOGIC` = NA)
+  ) %>%
+  bind_rows(
+    read_excel("file_layouts.xlsx", sheet = 3) %>% relocate(`BUSINESS LOGIC`, .after = 4)
+  ) %>%
+  bind_rows(
+    read_excel("file_layouts.xlsx", sheet = 4)  %>% mutate(`BUSINESS LOGIC` = NA)
+  ) %>%
+  bind_rows(
+    read_excel("file_layouts.xlsx", sheet = 5)  %>% mutate(`BUSINESS LOGIC` = NA)
+  ) %>%
+  set_names(
+    names(.) %>% str_replace_all(" ", "_") %>% str_to_lower()
+  )
+
+for(i in seq_along(file_layouts$extract_name)[-1]){
+  if(is.na(file_layouts$extract_name[[i]])){
+    file_layouts$extract_name[[i]] <-file_layouts$extract_name[[i-1]]
+  }
+  if(is.na(file_layouts$folder[[i]])){
+    file_layouts$folder[[i]] <-file_layouts$folder[[i-1]]
+  }
+}
+file_layouts %>% write_csv("file_layouts.csv")
 ```
 
 ```{r}
@@ -83,7 +83,10 @@ file_layouts_3 <- file_layouts_2 %>%
 ```
 
 ```{r}
-new_pk_tbl <- media_layout %>% select(old_table, new_table) %>% inner_join(pk_tbl, by = c("new_table" = "table")) %>% distinct(old_table, pk) %>% rename
+new_pk_tbl <- media_layout %>% 
+  select(old_table, new_table) %>% 
+  inner_join(pk_tbl, by = c("new_table" = "table")) %>% 
+  distinct(old_table, pk) %>% rename
 
 sql_layout_temp <- file_layouts_3 %>% 
   nest(.by = c(table, col_names_adintel, col_names)) %>% 
@@ -96,6 +99,89 @@ sql_layout_temp <- file_layouts_3 %>%
   ) %>% 
   unnest(everything()) 
 ```
+
+```{r}
+
+table = unique(sql_layout_temp$table)[1]
+
+sql_tbl <- sql_layout_temp %>% 
+  transmute(row = row_number(),
+            table,
+            column_name = col_names_adintel,
+            data_type = col_types,
+            precision = precision,
+            unique = if_else(is_unique, column_name, NA)) %>% 
+  nest(.by = table) %>% 
+  mutate(tbl = map(data , ~ select(.x, -unique, -row)),
+         unique = map(data, ~ .x %>% 
+                        filter(!is.na(unique)) %>% 
+                        pull(unique)), 
+         .keep = "unused")
+
+tbl_i <- sql_tbl %>% slice(1)
+
+with(tbl_i,
+glue("
+CREATE TABLE {table} 
+  ({ %>% paste(sep = ', ')})
+  "
+))
+
+
+pmap(.l = pluck(tbl_i,"tbl", 1), .f = sql_column_defition) %>% list_c() %>% 
+  glue_sql_collapse(sep = ", \n")
+
+
+
+
+
+
+
+$unique
+  summarise(data = select(column_name : is_unique),
+            unique = )
+tbl_i
+sql_layout_temp %>% filter
+
+
+
+
+
+
+
+sql_layout_temp %>% 
+  select(table, col_names_adintel, col_types, precision, is_unique) %>% 
+  mutate(unique_idx = if_else(is_unique))
+
+
+sql_layout_temp %>% 
+  transmute(table,
+            column_name = col_names_adintel,
+            data_type = col_tyoes,
+            precision = precision,
+            unique = if_else(is_unique, col_names_adintel))
+  summarise(columns = )
+
+
+sql_layout_temp %>% 
+  summarise(unique_idx = list(col_names_adintel[is_unique]), .by = table) %>% 
+  pull(unique_idx)
+list(
+  table = "xxx",
+  columns_list = ,
+  unique = ,
+  partition_by = "AdDate",
+  range = 2010 : 2021,
+)
+
+
+
+sql_layout_temp %>% 
+  mutate
+
+
+```
+
 
 ```{r}
 table <- "spot_tv"
@@ -165,4 +251,3 @@ con <- dbConnect(
 dbSendQuery(con, query)
 
 ```
-
