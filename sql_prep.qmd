@@ -40,7 +40,6 @@ source("load_packages.R")
 # file_layouts %>% write_csv("file_layouts.csv")
 ```
 
-
 ```{r}
 file_layouts <- read_csv("file_layouts.csv") %>% 
   mutate(file = str_split_i(folder, "/", -1)
@@ -77,5 +76,27 @@ file_layouts_3 <- file_layouts_2 %>%
                                c("INTEGER", "SMALLINT"),
                              NA, 
                              precision))
+```
+
+```{r}
+new_pk_tbl <- media_layout %>% select(old_table, new_table) %>% inner_join(pk_tbl, by = c("new_table" = "table")) %>% distinct(old_table, pk) %>% rename
+
+sql_layout_temp <- file_layouts_3 %>% 
+  nest(.by = c(table, col_names_adintel, col_names)) %>% 
+  full_join(
+    new_pk_tbl %>% mutate(is_unique = TRUE), 
+    by = c("table" = "old_table", "col_names" = "pk")
+  ) %>% 
+  mutate(
+    is_unique = !is.na(is_unique)
+  ) %>% 
+  unnest(everything()) 
+
+x <- sql_layout_temp %>% 
+  mutate(column_def = paste0("  ", str_charpad))
+  nest(data = everything(), .by = c(file_type, folder, table))
+
+x$data[[1]] %>% as.list()
+  
 ```
 
