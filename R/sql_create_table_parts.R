@@ -3,12 +3,14 @@
 #' @export
 #'
 sql_column_defition <- function(column_name, data_type, precision){
-  quo_name <- glue('"{column_name}"')
-  if(is.na(precision)){
-    out <- glue::glue('  {str_charpad(x = quo_name, pad = " ", off_margin = 2)} {data_type}')
-    return(out)
+  ok_name <- glue("{column_name}")
+  if(!is.na(precision)){
+    out <- glue(" \t \t {ok_name} \t \t {data_type}({precision})")
+    print(out)
+    return()
   }
-  glue::glue('  {str_charpad(x = quo_name, pad = " ", off_margin = 2)} {data_type}({precision})')
+  out <- glue(" \t \t {ok_name} \t \t {data_type}")
+  print(out)
 }
 #'
 #' @export
