@@ -1,0 +1,81 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+# | output: false
+source("load_packages.R")
+```
+
+```{r}
+# file_layouts <- read_excel("file_layouts.xlsx", sheet = 1) %>% mutate(`BUSINESS LOGIC` = NA) %>%
+#   bind_rows(
+#     read_excel("file_layouts.xlsx", sheet = 2)  %>% mutate(`BUSINESS LOGIC` = NA)
+#   ) %>%
+#   bind_rows(
+#     read_excel("file_layouts.xlsx", sheet = 3) %>% relocate(`BUSINESS LOGIC`, .after = 4)
+#   ) %>%
+#   bind_rows(
+#     read_excel("file_layouts.xlsx", sheet = 4)  %>% mutate(`BUSINESS LOGIC` = NA)
+#   ) %>%
+#   bind_rows(
+#     read_excel("file_layouts.xlsx", sheet = 5)  %>% mutate(`BUSINESS LOGIC` = NA)
+#   ) %>%
+#   set_names(
+#     names(.) %>% str_replace_all(" ", "_") %>% str_to_lower()
+#   )
+# 
+# for(i in seq_along(file_layouts$extract_name)[-1]){
+#   if(is.na(file_layouts$extract_name[[i]])){
+#     file_layouts$extract_name[[i]] <-file_layouts$extract_name[[i-1]]
+#   }
+#   if(is.na(file_layouts$folder[[i]])){
+#     file_layouts$folder[[i]] <-file_layouts$folder[[i-1]]
+#   }
+# }
+# file_layouts %>% write_csv("file_layouts.csv")
+```
+
+
+```{r}
+file_layouts <- read_csv("file_layouts.csv") %>% 
+  mutate(file = str_split_i(folder, "/", -1)
+         ,file_type = str_split_i(folder, "/", -2) %>% 
+           str_to_lower(), 
+         table = str_remove_all(file,".tsv") %>% 
+           str_separate_AbCd() %>% 
+           str_replace_all("t_v", "tv")  %>% 
+           str_replace_all("f_s_i", "fsi") %>% 
+           str_replace_all("m_p_a_a", "mpaa") %>% 
+           str_replace_all("u_e", "ue")  %>% 
+           str_replace_all("i_m_p", "imp"),
+         .after = folder)
+file_layouts
+file_layouts$table %>% unique
+```
+
+```{r}
+file_layouts_2 <- file_layouts %>% 
+  nest(.by = table, .key = "data1") %>% 
+  inner_join(
+    loader_tbl_occurences_sql %>% 
+      nest(.by = tablename, .key = "data2"), 
+    by = c("table" = "tablename")
+  ) %>% 
+  unnest(everything())
+
+file_layouts_3 <- file_layouts_2 %>% 
+  rename(col_names_adintel = extract_column) %>% 
+  mutate(col_types = str_to_upper(col_types),
+         col_types = if_else(col_types == "TINYINT", 
+                             "SMALLINT", col_types),
+         precision = if_else(col_types %in% 
+                               c("INTEGER", "SMALLINT"),
+                             NA, 
+                             precision))
+```
+
