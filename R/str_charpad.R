@@ -5,7 +5,7 @@
 #' @examples
 #' stopifnot("pad must be string" = is.character(pad))
 #'
-str_charpad <- function(x, pad = "", off_margin = 0) {
+str_charpad <- function(x, pad = " ", off_margin = 0) {
   stopifnot("pad must be string" = is.character(pad))
   stopifnot("off_margin must be positive" = off_margin > 0)
   x <- as.character(x)
