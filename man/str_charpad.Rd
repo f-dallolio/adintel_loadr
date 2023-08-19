@@ -4,7 +4,7 @@
 \alias{str_charpad}
 \title{Padding of strings}
 \usage{
-str_charpad(x, pad = "", off_margin = 0)
+str_charpad(x, pad = " ", off_margin = 0)
 }
 \description{
 Padding of strings

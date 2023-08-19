@@ -91,12 +91,5 @@ sql_layout_temp <- file_layouts_3 %>%
     is_unique = !is.na(is_unique)
   ) %>% 
   unnest(everything()) 
-
-x <- sql_layout_temp %>% 
-  mutate(column_def = paste0("  ", str_charpad(col_names_adintel, )))
-  nest(data = everything(), .by = c(file_type, folder, table))
-
-x$data[[1]] %>% as.list()
-  
 ```
 
