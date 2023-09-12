@@ -1,3 +1,12 @@
+#' Modify string from 'AaBbbCc' to 'aa_bbb_cc'
+#'
+#' @param string a string.
+#' @param sep a string.
+#' @param to_lower logical.
+#'
+#' @return a string
+#' @export
+#'
 str_separate_upper <- function(string, sep = '_', to_lower = TRUE){
   x_split <- stringr::str_split(string , "") %>% unlist()
   x_upper <- x_split %>% stringr::str_detect("^[:upper:]+$")
